@@ -34,24 +34,57 @@ if (!$etudiant) {
     <meta charset="UTF-8">
     <title>Détails Étudiant</title>
     <style>
+        body {
+            background-color:rgb(188, 207, 255);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+
         .card {
-            width: 300px;
-            margin: 100px auto;
-            border-left: 4px solid #007bff;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 25px 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid #007bff;
         }
-        .card h2 {
-            margin: 0 0 10px;
-        }
-        .card p {
-            margin: 5px 0;
-        }
+
         .breadcrumb {
             font-size: 14px;
-            color: #888;
-            margin-bottom: 10px;
+            color: #6c757d;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 16px;
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        a {
+            display: block;
+            width: fit-content;
+            margin: 30px auto 0 auto;
+            padding: 10px 20px;
+            background-color: rgb(41, 143, 246);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: rgb(41, 143, 246);
         }
     </style>
 </head>
